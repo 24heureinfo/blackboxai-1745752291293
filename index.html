@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site de Vente en Ligne</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-['Roboto'] text-gray-800">
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">Ma Boutique</h1>
+      <nav class="space-x-6">
+        <a href="#" class="text-gray-700 hover:text-indigo-600 transition">Accueil</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600 transition">Produits</a>
+        <a href="#" class="text-gray-700 hover:text-indigo-600 transition">Contact</a>
+      </nav>
+      <div class="relative">
+        <button aria-label="Voir le panier" class="text-gray-700 hover:text-indigo-600 transition relative">
+          <i class="fas fa-shopping-cart fa-lg"></i>
+          <span class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-10">
+    <h2 class="text-3xl font-semibold mb-8 text-center">Nos Produits</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <!-- Product 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/715688/pexels-photo-715688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Produit 1" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Chaussures de sport</h3>
+          <p class="text-indigo-600 font-bold text-xl mb-4">59,99 €</p>
+          <button class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 transition">Ajouter au panier</button>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Produit 2" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Montre élégante</h3>
+          <p class="text-indigo-600 font-bold text-xl mb-4">129,99 €</p>
+          <button class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 transition">Ajouter au panier</button>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Produit 3" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Sac à dos</h3>
+          <p class="text-indigo-600 font-bold text-xl mb-4">79,99 €</p>
+          <button class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 transition">Ajouter au panier</button>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+        <img src="https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Produit 4" class="w-full h-48 object-cover" />
+        <div class="p-4">
+          <h3 class="text-lg font-semibold mb-2">Lunettes de soleil</h3>
+          <p class="text-indigo-600 font-bold text-xl mb-4">49,99 €</p>
+          <button class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700 transition">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t mt-12">
+    <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+      &copy; 2024 Ma Boutique. Tous droits réservés.
+    </div>
+  </footer>
+</body>
+</html>
